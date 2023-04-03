@@ -37,7 +37,7 @@ Here is a simple overview of your production:
 
 > Note: Traefik is a web server that fits perfectly with containerized applications. For
 > our use case, we have already installed and configure Traefik on your VM.
-> 
+>
 > Traefik inspects all running container from the same docker network for docker
 > labels. Based on those labels, it will configure for you the reverse proxy to
 > route traefik to your application, based on the host name of the incomming HTTP request.
