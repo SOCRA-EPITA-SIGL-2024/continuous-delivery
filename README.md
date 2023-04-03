@@ -16,7 +16,7 @@ If it's not done yet, please push your index.html file from previous workshop to
 
 - Reuse your index.html file 
 - Create a Dockerfile at the root of your repository
-  - As a base image, use [nginx:1.21.6](https://hub.docker.com/_/nginx) from docker hub.
+  - As a base image, use [nginx:1.22.1](https://hub.docker.com/_/nginx) from docker hub.
   - Copy your index.html to the location of the default index.html file of
     nginx: `/usr/share/nginx/html/index.html`
 - Try to build and run your page on your local host:
