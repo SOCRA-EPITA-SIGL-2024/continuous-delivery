@@ -145,10 +145,8 @@ So your command to run the container will look like:
 
 ```sh
   # from your VM; and adapt groupXX by your group number
-  docker run -d \ 
-    --network web \
+  docker run -d --network web \
     --name socarotte-frontend \
-    --network web \
     --label "traefik.http.routers.socarotte.rule=Host(\`groupXX.socra-sigl.fr\`)" \
     --label "traefik.http.routers.socarotte.tls=true" \
     --label "traefik.http.routers.socarotte.tls.certresolver=myresolver" \
